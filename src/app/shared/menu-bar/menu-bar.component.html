@@ -7,7 +7,14 @@
 
       <div class="options">
         <p class="option-other">Learn</p>
-        <p [routerLink]="'/'" class="option-stay">Blog</p>
+        <p
+          class="option-other"
+          [routerLink]="'/'"
+          [routerLinkActive]="['option-stay']"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          Blog
+        </p>
         <p class="option-other">Bookmarks</p>
         <p class="option-other">Ui kit</p>
         <p class="option-other">Lain Nya</p>

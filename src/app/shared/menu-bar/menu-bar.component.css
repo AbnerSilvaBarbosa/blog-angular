@@ -32,16 +32,16 @@ nav{
   cursor: pointer;
 }
 
-.option-stay{
-  color:#ffffff;
-}
-
-.option-other{
-  color:gray;
+.option-other {
+  color: gray;
 }
 
 .option-other:hover{
-  color:#ffffff;
+  color: #ffffff;
+}
+
+.option-stay {
+  color: #ffffff;
 }
 
 .midia-socials{

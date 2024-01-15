@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-content-post',
@@ -8,10 +8,17 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class ContentPostComponent implements OnInit {
   public id: string | null = '';
-  constructor(private route: ActivatedRoute) {}
+  constructor(
+    private activatedRoute: ActivatedRoute,
+    private navigation: Router
+  ) {
+    this.id = this.activatedRoute.snapshot.paramMap.get('id');
+    console.log(this.id);
+  }
 
   ngOnInit(): void {
-    this.id = this.route.snapshot.paramMap.get('id');
-    console.log(this.id);
+    setInterval(() => {
+      this.navigation.navigate(['/']);
+    }, 3000);
   }
 }
