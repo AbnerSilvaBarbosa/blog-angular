@@ -27,10 +27,12 @@ Stacks:
 - **Segurança**
   - [ ] O sistema deve garantir a segurança dos dados do usuário, utilizando técnicas de criptografia e medidas contra ataques cibernéticos.
 <br>
+
 - **Usabilidade**
   - [ ] A interface do usuário deve ser intuitiva e de fácil navegação, considerando boas práticas de design de UX/UI para garantir uma experiência positiva.
   - [ ] A plataforma deve ser responsiva e oferecer uma experiência de usuário consistente em dispositivos móveis, como smartphones e tablets.
 <br>
+
 - **Padrões de Codificação**
   - [ ] O código-fonte deve seguir padrões de codificação estabelecidos, promovendo a manutenibilidade e facilitando futuras expansões e modificações no sistema.
 
