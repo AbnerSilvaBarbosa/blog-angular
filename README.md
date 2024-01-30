@@ -1,28 +1,44 @@
-# BlogAngular
+# Blog angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.13.
+Stacks:
 
-## Development server
+- Angular
+- Node
+- Typescript
+- Postgres
+- Docker
+- TypeORM
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Requisitos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### RFs ( Requisitos Funcionais )
+- [ ] O sistema consegue registrar usuários
+- [ ] O sistema consegue realizar autenticação do usuário
+- [ ] O sistema vai permitir os adm's a criação de novos posts
+- [ ] O sistema vai permitir o usuário realizar comentários nos posts
+- [ ] O sistema vai permitir o usuário deixar um like no post
 
-## Build
+### RNs ( Regras de Negócios )
+- [ ] Apenas usuários com a ruler adm podem criar, mudar, deletar o post
+- [ ] Para realizar um comentário e like é necessário o usuário estar logado no sistema
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### RNFs ( Requisitos não Funcionais )
+- **Segurança**
+  - [ ] O sistema deve garantir a segurança dos dados do usuário, utilizando técnicas de criptografia e medidas contra ataques cibernéticos.
+<br>
+- **Usabilidade**
+  - [ ] A interface do usuário deve ser intuitiva e de fácil navegação, considerando boas práticas de design de UX/UI para garantir uma experiência positiva.
+  - [ ] A plataforma deve ser responsiva e oferecer uma experiência de usuário consistente em dispositivos móveis, como smartphones e tablets.
+<br>
+- **Padrões de Codificação**
+  - [ ] O código-fonte deve seguir padrões de codificação estabelecidos, promovendo a manutenibilidade e facilitando futuras expansões e modificações no sistema.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Anotações importantes
+<img src="./assets/Screenshot from 2024-01-30 12-46-19.png">
+<br>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Trechos de códigos
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# blog-angular
