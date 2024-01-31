@@ -1,0 +1,39 @@
+nav{
+  @media screen and (min-width:360px) {
+    margin-top: 3%;
+  }
+
+  @media screen and (min-width:1000px) {
+    margin-top: 1.5%;
+  }
+}
+
+.logo-nav{
+  @media screen and (min-width:360px) {
+    width: 50%;
+  }
+
+  @media screen and (min-width:1000px) {
+    width: 15%;
+  }
+}
+
+.options-nav{
+  @media screen and (min-width:360px) {
+    display: none;
+  }
+
+  @media screen and (min-width:1000px) {
+    display: flex;
+  }
+}
+
+.rigth-nav{
+  @media screen and (min-width:360px) {
+    width: 50%;
+  }
+
+  @media screen and (min-width:1000px) {
+    width: 20%;
+  }
+}

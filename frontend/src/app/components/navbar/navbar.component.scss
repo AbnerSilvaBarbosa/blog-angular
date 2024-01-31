@@ -1,0 +1,70 @@
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #ffffff;
+  width: 100%;
+  margin-top: 1.2%;
+  margin-bottom: 5%;
+}
+
+.logo-nav{
+  width: 15%;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+.options-nav{
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin-right: 5%;
+
+  p{
+    margin-left: 2%;
+
+    a{
+      text-decoration: none;
+      color: white;
+    }
+
+    a:hover{
+      color: gray;
+    }
+  }
+}
+
+.rigth-nav{
+  display: flex;
+  justify-content: flex-end;
+  gap: 2%;
+  width: 20%;
+  margin-right:5%;
+}
+
+.button-format{
+  border: none;
+  font-size: medium;
+  padding: 2%;
+}
+
+.button-login{
+  @extend .button-format;
+  color: #ffffff;
+}
+
+.button-register{
+  @extend .button-format;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+
+.button-login:hover{
+  background-color: #8112fa;
+  border-radius: 3px;
+}
+
+.button-register:hover{
+  background-color: #1f2531;
+  color: #ffffff;
+}
