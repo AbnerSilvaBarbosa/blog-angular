@@ -1,0 +1,44 @@
+.card{
+  width:300px;
+  margin-bottom: 30%;
+  cursor: pointer;
+
+  .image-card{
+    margin-bottom: 5%;
+  }
+}
+
+.content-card{
+
+  .info-card{
+
+    display: flex;
+    gap: 5%;
+    margin-bottom: 5%;
+
+    p{
+      font-size: 12px;
+    }
+  }
+
+  .title-card{
+
+    display: flex;
+    justify-content: space-between;
+
+    h2{
+      font-size: 19px;
+      margin-bottom: 5%;
+    }
+
+    img{
+      transform: rotate(45deg);
+    }
+  }
+
+  p{
+    font-size: 12px;
+  }
+
+
+}

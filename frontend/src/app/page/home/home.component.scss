@@ -12,12 +12,19 @@ main{
   }
 
   h1{
-    margin-bottom: 1%;
     font-weight: 500;
-    font-size: 60px;
   }
 
   p{
     margin-bottom: 5%;
+  }
+
+  .grid-card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 86%;
+
+    gap: 5.63%;
+
   }
 }

@@ -1,0 +1,39 @@
+main{
+
+
+  @media screen and (min-width:360px) {
+
+    h1{
+      font-size: 30px;
+      margin-bottom: 4%;
+    }
+
+    p{
+      text-align: center;
+    }
+
+    .grid-card{
+     justify-content: center;
+     gap: 1%;
+
+    }
+  }
+
+  @media screen and (min-width:1500px) {
+
+    h1{
+      font-size: 60px;
+      margin-bottom: 1%;
+    }
+
+    .grid-card{
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      width: 86%;
+
+      gap: 5.63%;
+
+    }
+  }
+}

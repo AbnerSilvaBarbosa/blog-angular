@@ -4,14 +4,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1440px;
+
   position: relative;
-  margin-bottom: 7%;
+  margin-bottom: 5%;
   cursor: pointer;
 }
 
 img{
   width: 100%;
+  height: 800px;
   z-index: auto;
   transition: all 2s;
   filter: brightness(70%);
@@ -23,7 +24,6 @@ img:hover{
 
 .infors-big-card{
   position: absolute;
-  width: 50%;
   z-index: 1;
   left: 4%;
   bottom: 7%;
@@ -40,10 +40,6 @@ img:hover{
 
   h2{
     margin-bottom: 2%;
-  }
-
-  p{
-    font-size: 15px;
   }
 }
 
