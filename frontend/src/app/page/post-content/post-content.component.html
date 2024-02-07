@@ -13,18 +13,53 @@
     </div>
 
     <div class="social-post-content">
-      <button (mouseover)="changeImg()" (mouseout)="changeImg()">
+      <button
+        (click)="copyUrl()"
+        (mouseover)="changeImg()"
+        (mouseout)="changeImg()"
+      >
         <img [src]="imgSrc" alt="" />
         Copy link
       </button>
-      <div>
-        <a href=""
+      <div class="social-linkedin">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/abner-silva-barbosa-8a3542225/"
           ><img src="assets/linkedin.png" alt="Image Linkedin icon"
         /></a>
       </div>
     </div>
+  </div>
 
-    <!--Text of post down-->
-    <div></div>
+  <!--Text of post down-->
+  <div class="text-post-content">
+    <h1>Title Post</h1>
+
+    <p>
+      'Em 2023, o Brasil registrou um aumento de 15,8% nos casos de dengue.
+      Porém, Adhanom reforçou que os números são altos no mundo todo — com
+      exceção da Europa — e que isso é uma “emergência global”. “Este surto de
+      dengue atual faz parte de um grande aumento — em escala global — da
+      dengue, com mais de 500 milhões de casos e mais de 5 mil óbitos relatados
+      ano passado em 80 países de todas as regiões do mundo. Com a exceção da
+      região da Europa, todas as regiões são afetadas pelo surto da dengue neste
+      momento. Então, é uma emergência global”, disse o diretor da OMS.
+    </p>
+
+    <p>
+      A ministra da Saúde, Nísia Trindade também comentou sobre a campanha de
+      vacinação contra dengue, prevista para começar na sexta-feira (9) no
+      Distrito Federal. Ela destacou a importância das ações preventivas.“Agora
+      temos que olhar essa vacina de forma diferente de outras vacinas. A
+      mensagem agora é de controle dos vetores e focos”, disse.Nísia afirmou que
+      o governo ainda aguarda a chegada de novas doses da vacina da dengue para
+      iniciar a vacinação em outras unidades da federação. Mais 568 mil doses
+      estão previstas para chegar ao Brasil ainda este mês.“Em relação à vacina,
+      estaremos divulgando um calendário em breve porque ainda não recebemos
+      todas as doses”, disse a ministra. “Certamente é para começar logo, mas
+      sempre com aquele lembrete: estamos muito conscientes da importância que o
+      Brasil tem tido com a produção da vacina da dengue e estamos voltados para
+      ampliar a oferta da vacina da Takeda”.'
+    </p>
   </div>
 </div>

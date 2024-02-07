@@ -24,7 +24,16 @@ export class PostContentComponent implements OnInit {
     }
   }
 
+  public copyUrl(): void {
+    const url = this.activatedRouter.snapshot.url;
+    const copy = `http://localhost:4200/${url[0].path}/${url[1].path}`;
+
+    navigator.clipboard.writeText(copy).then(() => {
+      // do somethig for notication the user
+    });
+  }
+
   ngOnInit(): void {
-    console.log(this.id);
+    window.scroll(0, 0);
   }
 }

@@ -25,6 +25,7 @@
     width: 90%;
     border-bottom: 1px solid white;
     padding-bottom: 1.5%;
+    margin-bottom: 2%;
 
     .profile-post-content{
       display: flex;
@@ -66,12 +67,38 @@
         height: 50%;
         color: white;
         border-radius: 7px;
+        border: 1px solid white;
       }
 
       button:hover{
         background-color: white;
         color: black;
       }
+
+      .social-linkedin{
+        a{
+          img{
+
+          }
+        }
+      }
+    }
+  }
+
+  .text-post-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 90%;
+
+    h1{
+      margin-bottom: 2%;
+    }
+
+    p{
+      margin-bottom: 2%;
     }
   }
 }

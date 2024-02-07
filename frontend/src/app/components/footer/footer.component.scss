@@ -1,0 +1,42 @@
+footer{
+  background: rgb(67,71,147);
+  background: linear-gradient(90deg, rgba(67,71,147,1) 0%, rgba(9,116,121,1) 51%, rgba(143,0,255,1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+
+  color: white;
+
+  h1{
+    margin-bottom: 1%;
+  }
+
+  p{
+    margin-bottom: 1%;
+  }
+
+  .colums-footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5%;
+    margin-bottom: 5%;
+
+    div{
+      h3{
+        color: white;
+        opacity: 0.7;
+        margin-bottom: 5%;
+      }
+    }
+  }
+
+  .infos-footer{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
