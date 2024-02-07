@@ -1,1 +1,30 @@
-<p>post-content works!</p>
+<div class="post-content">
+  <div class="image-post-content">
+    <img src="assets/imagePostExample.jpg" alt="" />
+  </div>
+
+  <div class="info-author-post-content">
+    <div class="profile-post-content">
+      <img src="assets/profile.jpeg" alt="" />
+      <div class="profile-info-post-content">
+        <p>Abner Silva Barbosa</p>
+        <p>Software Enginer - FullStack</p>
+      </div>
+    </div>
+
+    <div class="social-post-content">
+      <button (mouseover)="changeImg()" (mouseout)="changeImg()">
+        <img [src]="imgSrc" alt="" />
+        Copy link
+      </button>
+      <div>
+        <a href=""
+          ><img src="assets/linkedin.png" alt="Image Linkedin icon"
+        /></a>
+      </div>
+    </div>
+
+    <!--Text of post down-->
+    <div></div>
+  </div>
+</div>

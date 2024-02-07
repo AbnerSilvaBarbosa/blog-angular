@@ -3,7 +3,14 @@
     <h2>Blog Abner</h2>
   </div>
   <div class="options-nav">
-    <p><a [routerLink]="['/']">Home</a></p>
+    <p>
+      <a
+        [routerLink]="['/']"
+        [routerLinkActive]="'linkActivated'"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Home</a
+      >
+    </p>
     <p><a href="">About me</a></p>
     <p><a href="">Recent</a></p>
   </div>

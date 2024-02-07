@@ -20,16 +20,21 @@ nav{
   width: 60%;
   margin-right: 5%;
 
+
   p{
     margin-left: 2%;
 
-    a{
-      text-decoration: none;
+    .linkActivated{
       color: white;
     }
 
-    a:hover{
+    a{
+      text-decoration: none;
       color: gray;
+    }
+
+    a:hover{
+      color: white;
     }
   }
 }
